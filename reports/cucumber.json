@@ -1,0 +1,250 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "done deal website",
+    "line": 1,
+    "id": "done-deal-website",
+    "tags": [],
+    "uri": "features/donedeal.feature",
+    "elements": [
+      {
+        "id": "done-deal-website;done-deal-website",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "done deal website",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open donedeal website",
+            "match": {
+              "location": "features/step_definitions/test1.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features/step_definitions/test1.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter commercial in the search box",
+            "match": {
+              "location": "features/step_definitions/test1.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click on search button",
+            "match": {
+              "location": "features/step_definitions/test1.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "commercial search page should be displayed",
+            "match": {
+              "location": "features/step_definitions/test1.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I select Leinster from location list",
+            "match": {
+              "location": "features/step_definitions/test1.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 812000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "price range 200 and 500",
+            "match": {
+              "location": "features/step_definitions/test1.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "result page should be diplayed",
+            "match": {
+              "location": "features/step_definitions/test1.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "done deal website",
+    "line": 1,
+    "id": "done-deal-website",
+    "tags": [],
+    "uri": "features/donedealLogin.feature",
+    "elements": [
+      {
+        "id": "done-deal-website;done-deal-login-journey",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "done deal login journey",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open donedeal website",
+            "match": {
+              "location": "features/step_definitions/test1.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features/step_definitions/test1.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on login link from homepage",
+            "match": {
+              "location": "features/step_definitions/test2.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "login popup should be displayed",
+            "match": {
+              "location": "features/step_definitions/test2.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "enter email id gauravratra@gmail.com",
+            "match": {
+              "location": "features/step_definitions/test2.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "enter password password12",
+            "match": {
+              "location": "features/step_definitions/test2.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click on login button",
+            "match": {
+              "location": "features/step_definitions/test2.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "features/step_definitions/test2.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

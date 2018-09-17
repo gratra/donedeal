@@ -1,0 +1,12 @@
+{
+  "cucumberautocomplete.steps": ["features/step_definitions/*.js"],
+  "cucumberautocomplete.syncfeatures": "*.feature",
+  "cucumberautocomplete.pages": {
+    "users": "page_objects/*.js"
+  },
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": true,
+    "other": true
+  }
+}

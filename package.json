@@ -1,0 +1,24 @@
+{
+  "name": "simple-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.js",
+  "scripts": {
+    "e2e-test": "nightwatch",
+    "e2e-test:chrome": "npm run e2e-test -- --env chrome",
+    "e2e-test:firefox": "npm run e2e-test -- --env firefox",
+    "e2e-report": "node create-html-report.js"
+  },
+  "author": "Gaurav",
+  "license": "",
+  "dependencies": {
+    "chromedriver": "^2.39.0",
+    "cucumber": "^4.0.0",
+    "cucumber-html-reporter": "^4.0.4",
+    "cucumber-pretty": "^1.4.0",
+    "geckodriver": "^1.10.0",
+    "nightwatch": "^0.9.20",
+    "nightwatch-cucumber": "^9.1.2",
+    "selenium-server": "^3.12.0"
+  }
+}
